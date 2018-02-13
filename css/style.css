@@ -12,6 +12,7 @@ html {
   font-size: 62.5%; }
 
 body {
+  padding-top: 50px;
   font-size: 1.6rem;
   font-family: "PT Sans", sans-serif;
   color: #262626;
@@ -119,7 +120,7 @@ header {
         content: 'desktop'; }
       .cd-slider::after {
         /* slider cover layer - to indicate the image is clickable */
-        content: '';
+        content: '';        
         display: block;
         position: absolute;
         top: 0;
@@ -170,6 +171,7 @@ header {
     right: 10px; }
   .cd-slider-navigation li a {
     display: block;
+    
     width: 48px;
     height: 48px;
     background: url("../img/cd-icon-arrow.svg") no-repeat center center;
@@ -204,6 +206,8 @@ header {
   /* you won't see this element in the html but it will be created using jQuery */
   position: absolute;
   z-index: 2;
+
+  padding-top: 85px;
   bottom: 30px;
   left: 50%;
   right: auto;
@@ -241,6 +245,7 @@ header {
 .cd-slider-wrapper .cd-close {
   display: none;
   position: absolute;
+  padding-top: 85px;
   z-index: 2;
   top: 30px;
   right: 30px;
