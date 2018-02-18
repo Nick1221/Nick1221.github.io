@@ -174,7 +174,7 @@ header {
     
     width: 48px;
     height: 48px;
-    background: url("../img/cd-icon-arrow.svg") no-repeat center center;
+    background: url("../img/if_arrow_right_alt1_118746.svg") no-repeat center center;
     -webkit-transition: opacity 0.2s 0s, visibility 0s 0s;
     -moz-transition: opacity 0.2s 0s, visibility 0s 0s;
     transition: opacity 0.2s 0s, visibility 0s 0s;
@@ -228,15 +228,15 @@ header {
     float: left;
     margin: 0 5px; }
     .cd-slider-pagination li.selected a {
-      background: #f5f4f3; }
+      background: #000000; }
   .cd-slider-pagination a {
     display: block;
     height: 12px;
     width: 12px;
     border-radius: 50%;
-    border: 1px solid #f5f4f3;
+    border: 1px solid #ffffff;
     /* fix a bug in IE9/10 - transparent anchor not clickable */
-    background-color: rgba(255, 255, 255, 0);
+    background-color: rgba(0, 0, 0, 0);
     /* image replacement */
     overflow: hidden;
     text-indent: 100%;
@@ -251,7 +251,7 @@ header {
   right: 30px;
   width: 48px;
   height: 48px;
-  background: url("../img/cd-icon-close.svg") no-repeat center center;
+  background: url("../img/icons8-delete.svg") no-repeat center center;
   /* image replacement */
   overflow: hidden;
   text-indent: 100%;
